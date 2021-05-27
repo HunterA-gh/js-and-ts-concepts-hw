@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ok.css">
+</head>
+<body>
+
+<h3>Log in</h3>
+
+<form id="mrform">
+    <div>
+        <label>Username: </label>
+        <input type="text">
+        <label>Password</label>
+        <input type="password">
+    </div>
+    <input type="submit" id="mrsubmit">
+</form>
+<hr>
+<hr>
+<h2> radio buttons </h2>
+
+<form>
+    <input type="radio" id="r1" name="rad" value="d1">
+    <label for="r1">Can Only</label><br>
+    <input type="radio" id="r2" name="rad" value="d2">
+    <label for="r2">Pick</label><br>
+    <input type="radio" id="r3" name="rad" value="d3">
+    <label for="r3">One</label>
+</form>
+<hr>
+<hr>
+<h3> Dropdown</h3>
+
+<form>
+    <div id="a1">
+    <label for="pancake-types">Choose an option </label>
+    </div>
+    <select id="pancake-types">
+        <option value="">--Please choose an option--</option>
+        <option value="1">ok</option>
+        <option value="1">ok</option>
+        <option value="1">ok</option>
+        <option value="1">ok</option>
+        <option value="1">ok</option>
+        <option value="1">ok</option>
+    </select>
+</form>
+<hr>
+<hr>
+<h4> Readonly / Phone # / Required input </h4>
+<form>
+    <label for="o">Number</label><br>
+    <input type="tel" id="o" name="fone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="555 - 555 - 5555" required><br>
+    <label for="o">some stuff</label>
+    </br>
+    <input type="text" id="lname" name="lname" value="Try to delete this" readonly>
+
+</form>
+<br>
+<br>
+<hr>
+<h2>Time </h2>
+<div>
+    <form>
+        <label for="anotherid">Select a time:</label>
+        <input type="time" id="anotherid" name="t1">
+    </form>
+</div>
+<hr><hr>
+
+<h3>Checkboxes</h3>
+<div>
+    <form>
+        <input type="checkbox" >
+        <label>Option to check</label><br>
+        <input type="checkbox" >
+        <label>Option to check</label> <br>
+        <input type="checkbox" >
+        <label>Option to check</label>
+    </form>
+</div>
+</body>
+</html>
